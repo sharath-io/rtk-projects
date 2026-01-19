@@ -1,9 +1,12 @@
+import CounterApp from "./CounterProject/CounterApp"
 import TaskManagerApp from "./TaskManagerProject/TaskManagerApp"
 
 const App = () =>  {
   return (
    <>
-   <TaskManagerApp/>
+   {/* <TaskManagerApp/> */}
+
+   <CounterApp/>
     </>
   )
 }
