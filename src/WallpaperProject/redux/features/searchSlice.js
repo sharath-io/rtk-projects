@@ -13,7 +13,7 @@ export const searchSlice = createSlice({
     setQuery(state, action) {
       state.query = action.payload;
     },
-    setActiveTabs(state, action) {
+    setActiveTab(state, action) {
       state.activeTab = action.payload;
     },
     setResults(state, action) {
@@ -36,7 +36,7 @@ export const searchSlice = createSlice({
 
 export const {
   setQuery,
-  setActiveTabs,
+  setActiveTab,
   setResults,
   setLoading,
   setError,

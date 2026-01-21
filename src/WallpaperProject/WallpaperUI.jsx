@@ -1,9 +1,11 @@
 import Searchbar from "./components/Searchbar";
+import Tabs from "./components/Tabs";
 
 const WallpaperUI = () => {
   return (
-    <div className="h-screen w-full text-white bg-gray-950 ">
+    <div className="h-screen w-full bg-gray-950 ">
       <Searchbar />
+      <Tabs/>
     </div>
   );
 };
